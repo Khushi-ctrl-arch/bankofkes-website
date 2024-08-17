@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="styler.css">
+</head>
+     <body>
+       <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+           <div class="contact-left-title">
+                <h2>Feedback Form</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="586d1bc5-939e-4ca7-b6c1-0c1403e92077">
+              <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+             <input type="text" name="t1" placeholder="Div/Roll no." class="contact-inputs" required>
+             <input type="tel" name="number" placeholder="+91" pattern="[0-9]{10}" class="contact-inputs"required>
+<input type="email" name="email" placeholder="@gmail.com" class="contact-inputs" required >
+              <input type="text" name="name" placeholder="Field practiced" class="contact-inputs" required>
+             <button type="submit">Submit</button>
+            </div>
+
+        </form>
+        <div class="contact-right">
+        </div>
+       </div>
+   
+     </body>
+</html>
